@@ -72,6 +72,7 @@ html {font-size:16px; font-family:$font;}
 //Layout
 img {max-width:100%;}
 .container {padding:15px}
+.row {margin-top:15px;}
 
 // Logo Section
 
@@ -124,6 +125,24 @@ th {font-size:1.7rem; text-align: center;}
 .dvalue {border-top:15px solid #000;}
 
 // 7 Year Guarantee & As Seen On Section
+.grn {font-weight:700;font-size:1.6rem;}
+.book-title {font-size:0.7rem;font-style: italic;font-weight: 700;padding:0px; margin:0px;}
+.book-by {font-weight: 500; font-size: 0.7rem;padding:0px; margin:0px;}
+.book-author {font-weight: 700; font-size: 0.7rem;padding:0px; margin:0px;}
+.seven-years-section {background:#fff; padding:5px;text-align: center;}
+.seven-years-section img {max-width:65%;}
+.seven-years-section p {text-align: left;}
+.ceo {display:flex;flex-direction:column;align-items:center}
+.ceo img {align-self:center;}
+.padded {padding:25px; margin-top:10px;}
+.grn {background:#4c813d; text-align:center;color:$white;padding:15px;margin-top:15px;}
+.aso, .book-img {display:flex;align-content:center; justify-content:center;}
+.books {display:flex;align-content:center; justify-content:center;flex-direction:column;padding:0px 5px;}
+.aso img, .book-img img {align-self:center;}
+.aso .aso {padding:0px 5px;}
+.book-img {padding:0px;}
+.logos .aso img {max-height:70px;width:auto;}
+.aso-container {box-shadow:0px 0px 10px rgba(0,0,0,0.22);}
 
 // References Section -->
 
