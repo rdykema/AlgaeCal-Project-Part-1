@@ -127,7 +127,7 @@
 			<div class="seven-years-section">
 			<img src="https://www.algaecal.com/wp-content/uploads/Final_960px-e1478104202859.png">
 			<h3>Stronger Bones for 7 Years Guarantee</h3>
-			<p>When you follow directions for use of AlgaeCal Plus and Strontium Boost - we guarantee you will see increased bone density in EVERY follow-up bone scan you have while using these 2 products - or we will refund every penny you paid for our products between your scans. This guarantee extends to every scan you have for the next 7 years! Also, if you are unsatisfied at any time you can return my product for a full refund, no questions asked! Click Here for Details</p>
+				<p>When you follow directions for use of AlgaeCal Plus and Strontium Boost - we guarantee you will see increased bone density in EVERY follow-up bone scan you have while using these 2 products - or we will refund every penny you paid for our products between your scans. This guarantee extends to every scan you have for the next 7 years! Also, if you are unsatisfied at any time you can return my product for a full refund, no questions asked! <a data-toggle="modal" data-target="#modal">Click Here for Details</a></p>
 			<div class="ceo"><img src="images/dean.jpg" alt="Dean Neuls, CEO and Co-Founder, AlgaeCal Inc.">
 				<p><b>Dean Neuls,</b><br>CEO and Co-Founder,<br>AlgaeCal Inc.</p></div>
 			</div>
@@ -171,9 +171,26 @@
 		</div>
 	</div>
 	</div>
+	<div id="modal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div id="seven-year-guarantee" class="modal-content">
+		  	<!-- Placeholder for 7 Year Copy -->
+		</div>
+
+  </div>
+	</div>
 	<div class="row">
 		<div class="col-xs-12">
 			<!-- References -->
+			<p class="reference-title">Scientific References</p>
+			<ol class="col-xs-10 col-xs-offset-1 col-md-12 col-md-offset-0">
+				<li class="col-xs-12 col-md-4">Marques A, Ferreira RJ, Santos E, et al. The accuracy of osteoporotic fracture risk prediction tools: a systematic review and meta-analysis. Ann Rheum Dis. 2015 Nov;74(11):1958-67. doi: 10.1136/annrheumdis-2015-207907. Epub 2015 Aug 6. PMID: 26248637,</li>
+				<li class="col-xs-12 col-md-4">Riggs BL, Melton LJ 3rd. The worldwide problem of osteoporosis: insights afforded by epidemiology. Bone. 1995 Nov;17(5 Suppl):505S-511S. PMID:8573428</li>
+				<li class="col-xs-12 col-md-4">https://www.algaecal.com/expert-insights/prescription-drugs-that-cause-osteoporosis/</li>
+			</ol>
+			<p class="reference-title">View Full Reference List...</p>
 		</div>
 	</div>
 	<div class="row">
@@ -212,7 +229,8 @@
 						document.getElementById("call").innerHTML += '<a href="tel:' + data.acf.default_phone_number + '"><p class="touch">Tap to Talk <span class="light-blue">' + data.acf.default_phone_number + '</span></p></a><p class="specialist"><i class="fas fa-phone"></i> Speak to our Bone Health Specialists!</p>';
 					}
 				}
-
+				console.log(data.acf);
+				document.getElementById("seven-year-guarantee").innerHTML += data.acf['7yr_full_copy'];
 			},
 			error: function(){
 			  alert("Cannot get data");
@@ -224,6 +242,7 @@
 				jQuery("#products").show();
 			}
 		});
+		
 	});
 </script>
 </div>

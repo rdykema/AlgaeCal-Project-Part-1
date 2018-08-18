@@ -358,3 +358,15 @@ th {
 
 .aso-container {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.22); }
+
+#seven-year-guarantee {
+  padding: 25px; }
+
+.reference-title {
+  color: #54b8cd;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.3rem; }
+
+ol {
+  font-family: "glober", "Roboto", sans-serif; }
