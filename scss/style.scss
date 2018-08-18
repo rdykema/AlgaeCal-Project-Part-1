@@ -93,6 +93,26 @@ b {font-weight: 700;}
 .flx hr {flex-grow:1;border-bottom:2px solid #eee;}
 
 // Product Section
+.day-price {background:url('https://www.algaecal.com/wp-content/uploads/yellow-highlight.png');background-position: center; background-size:100% 50%;display:inline-block;margin:auto;background-repeat: no-repeat;}
+.percent {font-weight: 900;font-size: 1.2rem;}
+.product-title {font-size:1.5em;margin-bottom:0px;}
+.product-sub {font-size:1.1em; margin-bottom:0px;}
+.price {font-size:1.7em; font-weight: 700;margin-top:10px;margin-bottom:0px;}
+.price sup {font-size:0.5em;}
+.day-price {font-size:1.1em;font-weight: 500;padding:5px 20px;}
+.day-price b {font-weight:900;}
+.most-popular .mpop-label {color:$white;text-align:center;text-transform: uppercase;letter-spacing: 0.05em; font-weight: 700;margin:5px 0px;}
+.seven-year {width: 70px;height: 70px;position: absolute;left: -15px;top: -13px;}
+.add-to-cart {margin-top:25px;position:relative;color:$white;background-color: #40ad4a;border-color: #358f3d;-webkit-box-shadow: 0 8px 0 #358f3d,0 8px 6px rgba(0,0,0,0.35);box-shadow: 0 8px 0 #358f3d,0 8px 6px rgba(0,0,0,0.35);text-shadow: 0 -1px 1px rgba(41,41,44,0.35);border:none;display: inline-block; font-weight: 700;margin-bottom: 0;outline: 0;text-align: center;text-decoration: none;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;vertical-align: middle;white-space: nowrap;padding: 0 1.37511em;padding-left: 3em;font-size: 1rem;line-height: 2.38989;border-radius: .25rem;width:80%;-webkit-align-self: flex-end;-ms-flex-item-align: end;align-self: flex-end;margin: 5px auto 30px;}
+.product {color:#000;background:$white;text-align:center;display:flex;flex-direction: column;box-shadow: 0px 0px 8px rgba(0,0,0,0.22);margin-top:4em; position: relative;}
+.product img {max-width:percentage(8/10)}
+.most-popular {background-color:#008ba4;padding:0px 10px 10px 10px; margin-top:4em;}
+.padded-container {padding:10px;}
+.most-popular .txt {margin:5px 0px;}
+.most-popular .product {margin:0px;}
+.product img {align-self:center;}
+.percent-off {background-color: #ff8c00;color: #fff;line-height: 1.1;height: 70px;text-transform: uppercase;width: 70px;border-radius: 100%;position: absolute;z-index:9999;top: -40px
+;right: -25px;-webkit-box-shadow: -1px 0px 8px 0px rgba(100,100,100,0.35);box-shadow: -1px 0px 8px 0px rgba(100,100,100,0.35);display: flex;align-items: center;justify-content: center;flex-direction:column;}
 
 //Supplement Section
 
