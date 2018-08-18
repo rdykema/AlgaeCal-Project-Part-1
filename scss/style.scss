@@ -1,0 +1,91 @@
+//Glober Font Import
+@font-face {
+    font-family: 'glober';
+    src: url('../fonts/glober-regular/glober_regular-webfont.eot');
+    src: url('../fonts/glober-regular/glober_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/glober-regular/glober_regular-webfont.woff') format('woff'),
+         url('../fonts/glober-regular/glober_regular-webfont.ttf') format('truetype'),
+         url('../fonts/glober-regular/glober_regular-webfont.svg#globerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'glober';
+    src: url('../fonts/glober-xbold/glober_xbold-webfont.eot');
+    src: url('../fonts/glober-xbold/glober_xbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/glober-xbold/glober_xbold-webfont.woff') format('woff'),
+         url('../fonts/glober-xbold/glober_xbold-webfont.ttf') format('truetype'),
+         url('../fonts/glober-xbold/glober_xbold-webfont.svg#globerxbold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'glober';
+    src: url('../fonts/glober-bold/glober_bold-webfont.eot');
+    src: url('../fonts/glober-bold/glober_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/glober-bold/glober_bold-webfont.woff') format('woff'),
+         url('../fonts/glober-bold/glober_bold-webfont.ttf') format('truetype'),
+         url('../fonts/glober-bold/glober_bold-webfont.svg#globerbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'glober';
+    src: url('../fonts/glober-semi-bold/glober_semibold-webfont.eot');
+    src: url('../fonts/glober-semi-bold/glober_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/glober-semi-bold/glober_semibold-webfont.woff') format('woff'),
+         url('../fonts/glober-semi-bold/glober_semibold-webfont.ttf') format('truetype'),
+         url('../fonts/glober-semi-bold/glober_semibold-webfont.svg#globersemibold') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'glober';
+    src: url('../fonts/glober-bold-italic/glober_bold_italic-webfont.eot');
+    src: url('../fonts/glober-bold-italic/glober_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/glober-bold-italic/glober_bold_italic-webfont.woff') format('woff'),
+         url('../fonts/glober-bold-italic/glober_bold_italic-webfont.ttf') format('truetype'),
+         url('../fonts/glober-bold-italic/glober_bold_italic-webfont.svg#globerbold_italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+//Roboto Import 
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,700i,900');
+//Font Variables
+$font: 'glober', 'Roboto', sans-serif;
+
+//Color Variables
+$light-blue: #54b8cd;
+$green: #41ad49;
+$white: #fff;
+$red: #e81010;
+
+// Fonts
+html {font-size:16px; font-family:$font;}
+
+
+
+// Color Application
+.light-blue { color: $light-blue; }
+
+//Layout
+img {max-width:100%;}
+.container {padding:15px}
+
+// Logo Section
+
+// Call now Section
+
+// Introducing, Subtxt, & Video Section
+
+// Product Section
+
+//Supplement Section
+
+// 7 Year Guarantee & As Seen On Section
+
+// References Section -->
+
+// Buy Now Button
+
+// Footer Logo, Nav, Copyright
