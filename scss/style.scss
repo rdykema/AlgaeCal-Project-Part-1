@@ -62,8 +62,12 @@ $red: #e81010;
 
 // Fonts
 html {font-size:16px; font-family:$font;}
+.touch { font-family: $font; font-weight:700; font-size: 1.4rem; color:#000; margin-bottom: 0px;}
+.specialist {font-family: $font; font-weight:normal; font-size:0.9rem;}
 
-
+//Color Variables
+$light-blue: #54b8cd;
+$green: #41ad49;
 
 // Color Application
 .light-blue { color: $light-blue; }
@@ -74,7 +78,9 @@ img {max-width:100%;}
 
 // Logo Section
 
+
 // Call now Section
+.fa-phone {padding: 0.4em;border-radius: 2em;background: $green;color: $white;}
 
 // Introducing, Subtxt, & Video Section
 

@@ -9,16 +9,19 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
+	
+<!-- Get Fontawesome Icons -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
 </head>
 <body>
 <div class="container">
 	<div class="row">
-		<div class="col-xs-12">
-			<!-- Logo -->
+		<div class="col-xs-12 col-sm-6">
+			<img src="images/logo.jpg" alt="AlgaeCal">
 		</div>
-		<div class="col-xs-12">
-			<!-- Call now Section -->
+		<div id="call" class="col-xs-12 col-sm-6">
+			<!-- Placeholder for Phone Call Section -->
 		</div>
 	</div>
 	<div class="row">
@@ -58,6 +61,33 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
-
+<script type="text/javascript">
+				jQuery(document).ready(function() {
+					jQuery.ajax({
+						url: "https://www.algaecal.com/wp-json/acf/v3/options/options",
+						type: 'GET',
+						dataType: 'json',
+						contentType: 'application/json',
+						processData: false,
+						data: '{"foo":"bar"}',
+						success: function (data) {
+						  var date = new Date();
+							var day = date.getDay();
+							var time = date.getHours() + "00";
+							var i;
+							for(i=0; i < data.acf.office_hours.length; i++){
+								if(data.acf.office_hours[i].day == day && data.acf.office_hours[i].starting_time < time && data.acf.office_hours[i].closing_time > time){
+									document.getElementById("call").innerHTML += '<a href="tel:' + data.acf.default_phone_number + '"><p class="touch">Tap to Talk <span class="light-blue">' + data.acf.default_phone_number + '</span></p></a><p class="specialist"><i class="fas fa-phone"></i> Speak to our Bone Health Specialists!</p>';
+								}
+							}
+						  
+						},
+						error: function(){
+						  alert("Cannot get data");
+						}
+					});
+				});
+			</script>
+	</div>
 </body>
 </html>
