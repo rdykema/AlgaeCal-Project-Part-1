@@ -50,6 +50,9 @@ html {
   font-weight: normal;
   font-size: 0.9rem; }
 
+a {
+  color: inherit; }
+
 .light-blue {
   color: #54b8cd; }
 
@@ -99,7 +102,8 @@ b {
 
 .greenbg {
   background: url(../images/greenbg.jpg);
-  background-size: cover; }
+  background-size: cover;
+  padding: 5px 15px; }
 
 .flx {
   display: flex;
@@ -366,7 +370,19 @@ th {
   color: #54b8cd;
   font-weight: 700;
   text-align: center;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  clear: both; }
 
 ol {
-  font-family: "glober", "Roboto", sans-serif; }
+  font-family: "glober", "Roboto", sans-serif;
+  color: #333; }
+
+.buy-now-btn {
+  text-align: center; }
+
+.footer {
+  text-align: center; }
+
+.footer-nav {
+  font-family: "glober", "Roboto", sans-serif;
+  color: #757575; }

@@ -65,6 +65,7 @@ $red: #e81010;
 html {font-size:16px; font-family:$font;}
 .touch { font-family: $font; font-weight:700; font-size: 1.4rem; color:#000; margin-bottom: 0px;}
 .specialist {font-family: $font; font-weight:normal; font-size:0.9rem;}
+a {color: inherit;}
 
 // Color Application
 .light-blue { color: $light-blue; }
@@ -86,7 +87,7 @@ img {max-width:100%;}
 .red-underline {border-bottom:3px solid $red;}
 .vid-txt {font-family: $font; font-size: 1.2rem;margin-top:15px;}
 b {font-weight: 700;}
-.greenbg {background:url(../images/greenbg.jpg);background-size: cover;}
+.greenbg {background:url(../images/greenbg.jpg);background-size: cover; padding:5px 15px;}
 .flx {display:flex;align-items: center;justify-content: center;}
 .flx hr {flex-grow:1;border-bottom:2px solid #eee;}
 
@@ -146,9 +147,12 @@ th {font-size:1.7rem; text-align: center;}
 #seven-year-guarantee {padding:25px;}
 
 // References Section -->
-.reference-title {color:$light-blue;font-weight:700;text-align:center;font-size:1.3rem;}
-ol {font-family: $font;}
+.reference-title {color:$light-blue;font-weight:700;text-align:center;font-size:1.3rem;clear:both;}
+ol {font-family: $font; color:#333;}
 
 // Buy Now Button
+.buy-now-btn {text-align:center;}
 
 // Footer Logo, Nav, Copyright
+.footer {text-align: center;}
+.footer-nav { font-family:$font;color:#757575}
